@@ -363,7 +363,7 @@ var beepbox;
     Config.keyTransposes = [23,  22,   21,  20,   19,  18,   17,  16,  15,   14,  13,   12 ];
     Config.mixNames =      ["Type A (B & S)", "Type B (M)", "Type C"];
     Config.sampleRateNames =     ["40200kHz", "44100kHz", "48000kHz", "51900kHz", "55800kHz"];
-    Config.tempoSteps = 2;
+    Config.tempoSteps = 50;
     Config.reverbRange = 40;
     Config.blendRange = 4;
     Config.riffRange = 11;
@@ -566,7 +566,7 @@ var beepbox;
 	Config.settNoteColorsDim =        ["#991010"];
     Config.settNoteColorsBright =     ["#ffffff", "#00ff00", "#42dcff", "#ffff25", "#4449a3", "#f6ff00", "#000000", "#fdd01d", "#69c400", "#fffc5b", "#66bf39", "#fefe00", "#75093e", "#818383", "#8bac0f", "#ffedca", "#000000", "#ffffff", "#ffffff"];
     Config.midiPitchChannelNames =    ["cyan channel", "yellow channel", "orange channel", "green channel", "purple channel", "blue channel"];
-    Config.midiDrumChannelNames =     ["gray channel", "brown channel", "indigo channel"];
+    Config.midiDrumChannelNames =     ["gray channel", "brown channel", "indigo channel", "red channel"];
     Config.midiSustainInstruments = [
         0x47,
         0x50,
@@ -591,7 +591,7 @@ var beepbox;
     ];
 	
     Config.drumInterval = 6;
-    Config.drumCount = 13;
+    Config.drumCount = 14;
     Config.pitchCount = 37;
     Config.maxPitch = 84;
     Config.pitchChannelCountMin = 0;
