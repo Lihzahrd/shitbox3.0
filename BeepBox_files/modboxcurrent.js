@@ -286,7 +286,7 @@ var beepbox;
     Config.blackKeyNameParents = [-1,   1,     -1,    1,    -1,    1,   -1,    -1,    1,    -1,    1,   -1    ];
     Config.pitchNames =          ["C", null, "D", null, "E", "F", null, "G", null, "A", null, "B"];
 	
-	Config.themeNames = ["Default", "ShitBox 2.0", "Artic", "Cinnamon Roll [!]", "Ocean", "Rainbow [!]", "Float [!]", "Windows", "Grassland", "Dessert", "Kahootiest", "Beam to the Bit [!]", "Pretty Egg", "Poniryoshka", "Gameboy [!]", "Woodkid", "Midnight", "Snedbox", "unnamed", "Piano [!] [↻]", "Halloween", "FrozenOver❄️", "Realm"];
+	Config.themeNames = ["Default", "ShitBox", "Artic", "Cinnamon Roll [!]", "Ocean", "Rainbow [!]", "Float [!]", "Windows", "Grassland", "Dessert", "Kahootiest", "Beam to the Bit [!]", "Pretty Egg", "Poniryoshka", "Gameboy [!]", "Woodkid", "Midnight", "Snedbox", "unnamed", "Piano [!] [↻]", "Halloween", "FrozenOver❄️", "Realm"];
 	
 	volumeColorPallet =            ["#7F22E8", "#7F22E8", "#7F22E8", "#7F22E8", "#090b3a", "#ff00cb", "#878787", "#15a0db", "#74bc21", "#ff0000", "#66bf39", "#fefe00", "#f01d7a", "#ffc100", "#8bac0f", "#ef3027", "#aa5599", "#a53a3d", "#ffffff", "#ff0000", "#9e2200", "#ed2d2d", "#7F22E8"]
 	sliderOneColorPallet =         ["#9900cc", "#00ff00", "#ffffff", "#ba8418", "#5982ff", "#ff0000", "#ffffff", "#2779c2", "#a0d168", "#ff6254", "#ff3355", "#fefe00", "#6b003a", "#4b4b4b", "#9bbc0f", "#e83c4e", "#445566", "#a53a3d", "#ffffff", "#ffffff", "#9e2200", "#38ef17", "#651BB9"]
@@ -405,7 +405,7 @@ var beepbox;
     Config.chorusHarmonizes = [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false];
 	Config.harmDisplay = ["arpeggio", "duet", "chord", "seventh", "half arpeggio", "arp-chord"];
     Config.harmNames = [0, 1, 2, 3, 4, 5];
-	Config.imuteNames = ["◉", "◎"];
+	Config.imuteNames = ["▣", "▢"];
 	Config.imuteValues = [1, 0];
 	Config.octoffNames = ["none", "+2 (2 octaves)",  "+1 1/2 (octave and fifth)",  "+1 (octave)",  "+1/2 (fifth)", "-1/2 (fifth)", "-1 (octave)", "-1 1/2 (octave and fifth)", "-2 (2 octaves)"];
 	Config.octoffValues = [0.0, 24.0, 19.0, 12.0, 7.0, -7.0, -12.0, -19.0, -24.0];
@@ -552,7 +552,7 @@ var beepbox;
         [[],  [4], [],  [2] ],
         [[],  [],  [4], [3] ],
     ];
-    Config.pitchChannelTypeNames =    ["chip", "FM (expert)"];
+    Config.pitchChannelTypeNames =    ["chip", "FM (expert)", "WIP"];
 	Config.drumChannelTypeNames =     ["noise"]
     Config.instrumentTypeNames =      ["chip", "FM", "noise", "cs"];
     Config.pitchChannelColorsDim =    [channelOneDimColorPallet, channelTwoDimColorPallet, channelThreeDimColorPallet, channelFourDimColorPallet, channelFiveDimColorPallet, channelSixDimColorPallet, channelSevenDimColorPallet, channelEightDimColorPallet, channelNineDimColorPallet, channelTenDimColorPallet, channelElevenDimColorPallet, channelTwelveDimColorPallet];
