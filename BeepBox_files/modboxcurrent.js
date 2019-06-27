@@ -6583,7 +6583,7 @@ var beepbox;
             this._handleHighlight = beepbox.svgElement("rect", { fill: "none", stroke: "white", "stroke-width": 2, "pointer-events": "none", x: 0, y: 1, width: 10, height: this._editorHeight - 2 });
             this._leftHighlight = beepbox.svgElement("path", { fill: "white", "pointer-events": "none" });
             this._rightHighlight = beepbox.svgElement("path", { fill: "white", "pointer-events": "none" });
-            this._svg = beepbox.svgElement("svg", { style: "background-color: #000000; touch-action: pan-y; position: absolute;", width: this._editorWidth, height: this._editorHeight }, [
+            this._svg = beepbox.svgElement("svg", { style: "background-color: #474747; touch-action: pan-y; position: absolute;", width: this._editorWidth, height: this._editorHeight }, [
                 this._notches,
                 this._handle,
                 this._handleHighlight,
