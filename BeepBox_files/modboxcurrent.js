@@ -8536,7 +8536,7 @@ var beepbox;
             this._octoffSelectRow = div({ className: "selectRow" }, [span({}, [text("Octave Offset: ")]), div({ className: "selectContainer" }, [this._octoffSelect])]);
             
 			this._ipanSlider = new Slider(input({ style: "margin: 8px; width: 100px;", type: "range", min: "-8", max: "0", value: "0", step: "1" }), this._doc, function (oldValue, newValue) { return new beepbox.ChangeIpan(_this._doc, oldValue, -newValue); });
-            this._ipanSliderRow = div({ className: "selectRow" }, [span({}, [text("L/R Panning: ")]), span({}, [text("Left")]), this._ipanSlider.input, span({}, [text("Right")])]);
+            this._ipanSliderRow = div({ className: "selectRow" }, [span({}, [text("L/R Panning: ")]), span({}, [text("L")]), this._ipanSlider.input, span({}, [text("R")])]);
             
 			this._phaseModGroup = div({ style: "display: flex; flex-direction: column; display: none;" }, []);
             this._feedbackTypeSelect = buildOptions(select({}), beepbox.Config.operatorFeedbackNames);
