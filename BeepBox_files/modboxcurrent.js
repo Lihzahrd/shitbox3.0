@@ -412,8 +412,8 @@ var beepbox;
 	Config.volumeNames = ["loudest", "loud", "medium", "quiet", "quietest", "mute", "i", "couldnt", "be", "bothered"];
     Config.volumeValues = [0.0, 0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0, -1.0];
     Config.volumeMValues = [0.0, 0.5, 1.0, 1.5, 2.0, -1.0];
-    Config.ipanValues = [-1.0, -0.80, -0.65, -0.55, -0.45, -0.30, -0.20, 0.0, 0.20, 0.30, 0.45, 0.55, 0.65, 0.80, 1.0];
-    Config.operatorCount = 7;
+    Config.ipanValues = [-1.0, -0.75, -0.50, -0.25, 0.0, 0.25, 0.50, 0.75, 1.0];
+    Config.operatorCount = 4;
 	
     Config.operatorAlgorithmNames = [
         "1←(2 3 4)",
