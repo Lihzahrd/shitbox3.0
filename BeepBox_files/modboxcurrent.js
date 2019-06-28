@@ -8503,8 +8503,8 @@ var beepbox;
             this._detuneSlider = new Slider(input({ style: "width: 9em; margin: 0px;", type: "range", min: "0", max: beepbox.Config.detuneRange - 1, value: "0", step: "1" }), this._doc, function (oldValue, newValue) { return new beepbox.ChangeDetune(_this._doc, oldValue, newValue); });		
             this._muffSlider = new Slider(input({ style: "width: 9em; margin: 0px;", type: "range", min: "0", max: beepbox.Config.muffRange - 1, value: "0", step: "1" }), this._doc, function (oldValue, newValue) { return new beepbox.ChangeMuff(_this._doc, oldValue, newValue); });		
 			
-            this._imuteSelect = button({style: "width: 27px;", type: "button"});
-			this._iMmuteSelect = button({style: "width: 27px;", type: "button"});
+            this._imuteSelect = button({style: "width: 27px;", type: "slider"});
+			this._iMmuteSelect = button({style: "width: 27px;", type: "slider"});
 			this._partSelect = buildOptions(select({}), beepbox.Config.partNames);
 			this._instrumentTypeSelect = buildOptions(select({}), beepbox.Config.pitchChannelTypeNames);
             this._instrumentTypeHint = beepbox.html.element("a", { className: "hintButton" }, [text("?")]);
