@@ -263,7 +263,7 @@ var beepbox;
         };
         return Config;
     }());
-    Config.scaleNames = ["easy :)", "easy :(", "island :)", "island :(", "blues :)", "blues :(", "normal :)", "normal :(", "dbl harmonic :)", "dbl harmonic :(", "enigma", "expert", "monotonic", "no dabbing", "di-hexa", "you cant do anything"];
+    Config.scaleNames = ["easy major", "easy minor", "island major", "island minor", "blues major", "blues minor", "normal major", "normal minor", "dbl harmonic major", "dbl harmonic minor", "enigma", "expert", "monotonic", "no dabbing", "di-hexa", "you cant do anything"];
     Config.scaleFlags = [
         [true, false, true,  false, true,  false, false, true,  false, true,  false, false],
         [true, false, false, true,  false, true,  false, true,  false, false, true,  false],
@@ -359,11 +359,11 @@ var beepbox;
 	channelSixteenDimColorPallet =     ["#7c9b42"]
 	channelSeventeenDimColorPallet =   ["#7F22E8"]
 	
-    Config.keyNames =      ["B", "A♯", "A", "G♯", "G", "F♯", "F", "E", "D♯", "D", "C♯", "C"];
-    Config.keyTransposes = [23,  22,   21,  20,   19,  18,   17,  16,  15,   14,  13,   12 ];
+    Config.keyNames =      ["B", "A♯", "A", "G♯", "G", "F♯", "F", "E", "D♯", "D", "C♯", "C", "oh no"];
+    Config.keyTransposes = [23,  22,   21,  20,   19,  18,   17,  16,  15,   14,  13,   12,   5 ];
     Config.mixNames =      ["Type A (B & S)", "Type B (M)", "Type C"];
     Config.sampleRateNames =     ["40200kHz", "44100kHz", "48000kHz", "51900kHz", "55800kHz"];
-    Config.tempoSteps = 200;
+    Config.tempoSteps = 60;
     Config.reverbRange = 200;
     Config.blendRange = 4;
     Config.riffRange = 11;
