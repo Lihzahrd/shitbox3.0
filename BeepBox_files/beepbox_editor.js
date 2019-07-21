@@ -41,38 +41,39 @@ var beepbox;
     ]);
     Config.keys = toNameMap([
         { name: "C", isWhiteKey: true, basePitch: 12 },
-        { name: "Câ™¯", isWhiteKey: false, basePitch: 13 },
+        { name: "C♯", isWhiteKey: false, basePitch: 13 },
         { name: "D", isWhiteKey: true, basePitch: 14 },
-        { name: "Dâ™¯", isWhiteKey: false, basePitch: 15 },
+        { name: "D♯", isWhiteKey: false, basePitch: 15 },
         { name: "E", isWhiteKey: true, basePitch: 16 },
         { name: "F", isWhiteKey: true, basePitch: 17 },
-        { name: "Fâ™¯", isWhiteKey: false, basePitch: 18 },
+        { name: "F♯", isWhiteKey: false, basePitch: 18 },
         { name: "G", isWhiteKey: true, basePitch: 19 },
-        { name: "Gâ™¯", isWhiteKey: false, basePitch: 20 },
+        { name: "G♯", isWhiteKey: false, basePitch: 20 },
         { name: "A", isWhiteKey: true, basePitch: 21 },
-        { name: "Aâ™¯", isWhiteKey: false, basePitch: 22 },
+        { name: "A♯", isWhiteKey: false, basePitch: 22 },
         { name: "B", isWhiteKey: true, basePitch: 23 },
     ]);
     Config.blackKeyNameParents = [-1, 1, -1, 1, -1, 1, -1, -1, 1, -1, 1, -1];
-    Config.tempoMin = 30;
-    Config.tempoMax = 300;
-    Config.reverbRange = 4;
+    Config.tempoMin = 1;
+    Config.tempoMax = 9000;
+    Config.reverbRange = 250;
     Config.beatsPerBarMin = 3;
     Config.beatsPerBarMax = 16;
     Config.barCountMin = 1;
     Config.barCountMax = 128;
     Config.patternsPerChannelMin = 1;
-    Config.patternsPerChannelMax = 64;
+    Config.patternsPerChannelMax = 9999;
     Config.instrumentsPerChannelMin = 1;
     Config.instrumentsPerChannelMax = 10;
     Config.partsPerBeat = 24;
     Config.ticksPerPart = 2;
     Config.rhythms = toNameMap([
-        { name: "Ã·3 (triplets)", stepsPerBeat: 3, ticksPerArpeggio: 4, arpeggioPatterns: [[0], [0, 0, 1, 1], [0, 1, 2, 1], [0, 1, 2, 3]], roundUpThresholds: [5, 12, 18] },
-        { name: "Ã·4 (standard)", stepsPerBeat: 4, ticksPerArpeggio: 3, arpeggioPatterns: [[0], [0, 0, 1, 1], [0, 1, 2, 1], [0, 1, 2, 3]], roundUpThresholds: [3, 9, 17, 21] },
-        { name: "Ã·6", stepsPerBeat: 6, ticksPerArpeggio: 4, arpeggioPatterns: [[0], [0, 1], [0, 1, 2, 1], [0, 1, 2, 3]], roundUpThresholds: null },
-        { name: "Ã·8", stepsPerBeat: 8, ticksPerArpeggio: 3, arpeggioPatterns: [[0], [0, 1], [0, 1, 2, 1], [0, 1, 2, 3]], roundUpThresholds: null },
+        { name: "÷3 (triplets)", stepsPerBeat: 3, ticksPerArpeggio: 4, arpeggioPatterns: [[0], [0, 0, 1, 1], [0, 1, 2, 1], [0, 1, 2, 3]], roundUpThresholds: [5, 12, 18] },
+        { name: "÷4 (standard)", stepsPerBeat: 4, ticksPerArpeggio: 3, arpeggioPatterns: [[0], [0, 0, 1, 1], [0, 1, 2, 1], [0, 1, 2, 3]], roundUpThresholds: [3, 9, 17, 21] },
+        { name: "÷6", stepsPerBeat: 6, ticksPerArpeggio: 4, arpeggioPatterns: [[0], [0, 1], [0, 1, 2, 1], [0, 1, 2, 3]], roundUpThresholds: null },
+        { name: "÷8", stepsPerBeat: 8, ticksPerArpeggio: 3, arpeggioPatterns: [[0], [0, 1], [0, 1, 2, 1], [0, 1, 2, 3]], roundUpThresholds: null },
         { name: "freehand", stepsPerBeat: 24, ticksPerArpeggio: 3, arpeggioPatterns: [[0], [0, 1], [0, 1, 2, 1], [0, 1, 2, 3]], roundUpThresholds: null },
+	{ name: "real freehand", stepsPerBeat: 9000000, ticksPerArpeggio: 3, arpeggioPatterns: [[0], [0, 1], [0, 1, 2, 1], [0, 1, 2, 3]], roundUpThresholds: null },
     ]);
     Config.instrumentTypeNames = ["chip", "FM", "noise", "spectrum", "drumset", "harmonics", "PWM"];
     Config.instrumentTypeHasSpecialInterval = [true, true, false, false, false, true, false];
