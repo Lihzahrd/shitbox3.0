@@ -37,6 +37,7 @@ var beepbox;
         { name: "dbl harmonic :(", flags: [true, false, true, true, false, false, true, true, true, false, false, true] },
         { name: "enigma", flags: [true, false, true, false, true, false, true, false, true, false, true, false] },
         { name: "expert", flags: [true, true, true, true, true, true, true, true, true, true, true, true] },
+	{ name: "tri-hexa", flags: [true, false, false, true, false, false, true, false, false, true, false, false] },
     ]);
     Config.keys = toNameMap([
         { name: "C", isWhiteKey: true, basePitch: 12 },
