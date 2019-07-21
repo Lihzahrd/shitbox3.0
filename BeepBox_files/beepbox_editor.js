@@ -23,18 +23,18 @@ var beepbox;
 (function (beepbox) {
     class Config {
     }
-    Config.versionDisplayName = "BeepBox 3.0";
+    Config.versionDisplayName = "ShitBox 3.0";
     Config.scales = toNameMap([
-        { name: "easy :)", flags: [true, false, true, false, true, false, false, true, false, true, false, false] },
-        { name: "easy :(", flags: [true, false, false, true, false, true, false, true, false, false, true, false] },
-        { name: "island :)", flags: [true, false, false, false, true, true, false, true, false, false, false, true] },
-        { name: "island :(", flags: [true, true, false, true, false, false, false, true, true, false, false, false] },
-        { name: "blues :)", flags: [true, false, true, true, true, false, false, true, false, true, false, false] },
-        { name: "blues :(", flags: [true, false, false, true, false, true, true, true, false, false, true, false] },
-        { name: "normal :)", flags: [true, false, true, false, true, true, false, true, false, true, false, true] },
-        { name: "normal :(", flags: [true, false, true, true, false, true, false, true, true, false, true, false] },
-        { name: "dbl harmonic :)", flags: [true, true, false, false, true, true, false, true, true, false, false, true] },
-        { name: "dbl harmonic :(", flags: [true, false, true, true, false, false, true, true, true, false, false, true] },
+        { name: "easy major", flags: [true, false, true, false, true, false, false, true, false, true, false, false] },
+        { name: "easy minor", flags: [true, false, false, true, false, true, false, true, false, false, true, false] },
+        { name: "island major", flags: [true, false, false, false, true, true, false, true, false, false, false, true] },
+        { name: "island minor", flags: [true, true, false, true, false, false, false, true, true, false, false, false] },
+        { name: "blues major", flags: [true, false, true, true, true, false, false, true, false, true, false, false] },
+        { name: "blues minor", flags: [true, false, false, true, false, true, true, true, false, false, true, false] },
+        { name: "normal major", flags: [true, false, true, false, true, true, false, true, false, true, false, true] },
+        { name: "normal minor", flags: [true, false, true, true, false, true, false, true, true, false, true, false] },
+        { name: "dbl harmonic major", flags: [true, true, false, false, true, true, false, true, true, false, false, true] },
+        { name: "dbl harmonic minor", flags: [true, false, true, true, false, false, true, true, true, false, false, true] },
         { name: "enigma", flags: [true, false, true, false, true, false, true, false, true, false, true, false] },
         { name: "expert", flags: [true, true, true, true, true, true, true, true, true, true, true, true] },
 	{ name: "tri-hexa", flags: [true, false, false, true, false, false, true, false, false, true, false, false] },
@@ -229,9 +229,9 @@ var beepbox;
     Config.harmonicsWavelength = 1 << 11;
     Config.pulseWidthRange = 8;
     Config.pitchChannelCountMin = 1;
-    Config.pitchChannelCountMax = 6;
+    Config.pitchChannelCountMax = 999999999999999;
     Config.noiseChannelCountMin = 0;
-    Config.noiseChannelCountMax = 3;
+    Config.noiseChannelCountMax = 999999999999999;
     Config.noiseInterval = 6;
     Config.drumCount = 12;
     Config.pitchOctaves = 7;
