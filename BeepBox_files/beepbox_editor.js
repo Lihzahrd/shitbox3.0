@@ -73,7 +73,7 @@ var beepbox;
         { name: "÷6", stepsPerBeat: 6, ticksPerArpeggio: 4, arpeggioPatterns: [[0], [0, 1], [0, 1, 2, 1], [0, 1, 2, 3]], roundUpThresholds: null },
         { name: "÷8", stepsPerBeat: 8, ticksPerArpeggio: 3, arpeggioPatterns: [[0], [0, 1], [0, 1, 2, 1], [0, 1, 2, 3]], roundUpThresholds: null },
         { name: "freehand", stepsPerBeat: 24, ticksPerArpeggio: 3, arpeggioPatterns: [[0], [0, 1], [0, 1, 2, 1], [0, 1, 2, 3]], roundUpThresholds: null },
-	{ name: "real freehand", stepsPerBeat: 9000000, ticksPerArpeggio: 3, arpeggioPatterns: [[0], [0, 1], [0, 1, 2, 1], [0, 1, 2, 3]], roundUpThresholds: null },
+	{ name: "real freehand", stepsPerBeat: 9000, ticksPerArpeggio: 3, arpeggioPatterns: [[0], [0, 1], [0, 1, 2, 1], [0, 1, 2, 3]], roundUpThresholds: null },
     ]);
     Config.instrumentTypeNames = ["chip", "FM", "noise", "spectrum", "drumset", "harmonics", "PWM"];
     Config.instrumentTypeHasSpecialInterval = [true, true, false, false, false, true, false];
@@ -229,9 +229,9 @@ var beepbox;
     Config.harmonicsWavelength = 1 << 11;
     Config.pulseWidthRange = 8;
     Config.pitchChannelCountMin = 1;
-    Config.pitchChannelCountMax = 999999999999999;
+    Config.pitchChannelCountMax = 999999999999;
     Config.noiseChannelCountMin = 0;
-    Config.noiseChannelCountMax = 999999999999999;
+    Config.noiseChannelCountMax = 999999999999;
     Config.noiseInterval = 6;
     Config.drumCount = 12;
     Config.pitchOctaves = 7;
